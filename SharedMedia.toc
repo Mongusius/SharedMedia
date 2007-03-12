@@ -1,0 +1,19 @@
+## Interface: 20003
+
+## Title: SharedMedia
+## Notes: Inserts some media into SharedMediaLib's storage.
+## Version: 1.0
+## Author: Elkano
+## X-Website: http://elkano.wowinterface.com/
+## X-Email: elkano@gmx.de
+## X-Category: Library
+
+## X-WoWIPortal: elkano
+## X-Embeds: Ace2, SharedMedia-1.0
+## OptionalDeps: Ace2, SharedMediaLib
+
+libs\AceLibrary\AceLibrary.lua
+Libs\AceOO-2.0\AceOO-2.0.lua
+Libs\AceAddon-2.0\AceAddon-2.0.lua
+
+SharedMedia.lua
