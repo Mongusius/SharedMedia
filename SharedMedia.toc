@@ -15,6 +15,7 @@
 libs\AceLibrary\AceLibrary.lua
 Libs\AceOO-2.0\AceOO-2.0.lua
 Libs\AceAddon-2.0\AceAddon-2.0.lua
+libs\AceEvent-2.0\AceEvent-2.0.lua
 Libs\SharedMedia-1.0\SharedMedia-1.0.lua
 
 SharedMedia.lua
