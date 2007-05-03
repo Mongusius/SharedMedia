@@ -6,7 +6,7 @@
 ## Author: Elkano
 ## X-Website: http://elkano.wowinterface.com/
 ## X-Email: elkano@gmx.de
-## X-Category: Library
+## X-Category: Miscellaneous
 
 ## X-WoWIPortal: elkano
 ## X-Embeds: Ace2, SharedMedia-1.0

@@ -2,6 +2,8 @@ local SML = AceLibrary("SharedMedia-1.0")
 
 SharedMedia = AceLibrary("AceAddon-2.0"):new()
 
+SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
+
 function SharedMedia:OnInitialize()
 
 -- -----
