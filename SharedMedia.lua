@@ -15,6 +15,7 @@ function SharedMedia:OnInitialize()
 -- -----
 --   STATUSBAR
 -- -----
+	SML:Register("statusbar", "Aluminium",		"Interface\\Addons\\SharedMedia\\statusbar\\Aluminium")
 	SML:Register("statusbar", "BantoBar",		"Interface\\Addons\\SharedMedia\\statusbar\\BantoBar")
 	SML:Register("statusbar", "Button",			"Interface\\Addons\\SharedMedia\\statusbar\\Button")
 	SML:Register("statusbar", "Charcoal",		"Interface\\Addons\\SharedMedia\\statusbar\\Charcoal")
