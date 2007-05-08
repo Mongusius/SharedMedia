@@ -9,9 +9,8 @@ function SharedMedia:OnInitialize()
 -- -----
 --   FONT
 -- -----
-	-- SML:Register("font", "", "")
-        SML:Register("font", "Big Noodle Tilting",              "Interface\\Addons\\SharedMedia\\fonts\\BigNoodleTilting.ttf")
-        SML:Register("font", "Emblem",                          "Interface\\Addons\\SharedMedia\\fonts\\Emblem.ttf")
+	SML:Register("font", "BigNoodleTilting",	"Interface\\Addons\\SharedMedia\\fonts\\BigNoodleTilting.ttf")
+	SML:Register("font", "Emblem",				"Interface\\Addons\\SharedMedia\\fonts\\Emblem.ttf")
 
 -- -----
 --   STATUSBAR
@@ -30,7 +29,7 @@ function SharedMedia:OnInitialize()
 	SML:Register("statusbar", "Perl",			"Interface\\Addons\\SharedMedia\\statusbar\\Perl")
 	SML:Register("statusbar", "Round",			"Interface\\Addons\\SharedMedia\\statusbar\\Round")
 	SML:Register("statusbar", "Smooth",			"Interface\\Addons\\SharedMedia\\statusbar\\Smooth")
-        SML:Register("statusbar", "Smoothv2",                   "Interface\\Addons\\SharedMedia\\statusbar\\Smoothv2")
+	SML:Register("statusbar", "Smooth v2",		"Interface\\Addons\\SharedMedia\\statusbar\\Smoothv2")
 	SML:Register("statusbar", "Steel",			"Interface\\Addons\\SharedMedia\\statusbar\\Steel")
 
 end
