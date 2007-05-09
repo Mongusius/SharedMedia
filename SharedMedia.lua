@@ -10,6 +10,7 @@ function SharedMedia:OnInitialize()
 --   FONT
 -- -----
 	SML:Register("font", "BigNoodleTilting",	"Interface\\Addons\\SharedMedia\\fonts\\BigNoodleTilting.ttf")
+	SML:Register("font", "BlackChancery",		"Interface\\Addons\\SharedMedia\\fonts\\BlackChancery.ttf")
 	SML:Register("font", "Emblem",				"Interface\\Addons\\SharedMedia\\fonts\\Emblem.ttf")
 
 -- -----
