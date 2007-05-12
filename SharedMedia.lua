@@ -52,4 +52,20 @@ function SharedMedia:OnInitialize()
 	SML:Register("statusbar", "Water",		"Interface\\Addons\\SharedMedia\\statusbar\\Water")
 	SML:Register("statusbar", "Wisps",		"Interface\\Addons\\SharedMedia\\statusbar\\Wisps")
 
+-- -----
+--  BORDER
+-- ----
+	SML:Register("border", "Blizzard Tooltip", "Interface\\Tooltips\\UI-Tooltip-Border")
+	SML:Register("border", "Blizzard Chatframe", "Interface\\ChatFrame\\ChatFrameBorder")
+	SML:Register("border", "Blizzard ActionButton", "Interface\\Buttons\\UI-ActionButton-Border")
+
+-- -----
+-- BACKGROUNDS
+-- -----
+	SML:Register("background", "Blizzard Out of Control", "Interface\\FullScreenTextures\\OutOfControl")
+	SML:Register("background", "Blizzard Low Health", "Interface\\FullScreenTextures\\LowHealth")
+	SML:Register("background", "Blizzard Tabard Background", "Interface\\TabardFrame\\TabardFrameBackground")
+	
+	
+
 end
