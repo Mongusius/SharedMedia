@@ -58,6 +58,7 @@ function SharedMedia:OnInitialize()
 	SML:Register("border", "Blizzard Tooltip", "Interface\\Tooltips\\UI-Tooltip-Border")
 	SML:Register("border", "Blizzard Chatframe", "Interface\\ChatFrame\\ChatFrameBorder")
 	SML:Register("border", "Blizzard ActionButton", "Interface\\Buttons\\UI-ActionButton-Border")
+	SML:Register("border", "Blizzard Dialog", "Interface\\DialogFrame\\UI-DialogBox-Border")
 
 -- -----
 -- BACKGROUNDS
