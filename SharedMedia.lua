@@ -21,8 +21,8 @@ function SharedMedia:OnInitialize()
 --   FONT
 -- -----
 	SML:Register("font", "BigNoodleTilting",		"Interface\\Addons\\SharedMedia\\fonts\\BigNoodleTilting.ttf")
-	SML:Register("font", "BlackChancery",			"Interface\\Addons\\SharedMedia\\fonts\\BlackChancery.ttf")
-	SML:Register("font", "Emblem",					"Interface\\Addons\\SharedMedia\\fonts\\Emblem.ttf")
+	SML:Register("font", "BlackChancery",		"Interface\\Addons\\SharedMedia\\fonts\\BlackChancery.ttf")
+	SML:Register("font", "Emblem",			"Interface\\Addons\\SharedMedia\\fonts\\Emblem.ttf")
 
 -- -----
 --   SOUND
@@ -51,6 +51,7 @@ function SharedMedia:OnInitialize()
 	SML:Register("statusbar", "Gloss",				"Interface\\Addons\\SharedMedia\\statusbar\\Gloss")
 	SML:Register("statusbar", "Grid",				"Interface\\Addons\\SharedMedia\\statusbar\\Grid")
 	SML:Register("statusbar", "Hatched",			"Interface\\Addons\\SharedMedia\\statusbar\\Hatched")
+	SML:Register("statusbar", "Lyfe",				"Interface\\Addons\\SharedMedia\\statusbar\\Lyfe")
 	SML:Register("statusbar", "LiteStep",			"Interface\\Addons\\SharedMedia\\statusbar\\LiteStep")
 	SML:Register("statusbar", "Minimalist",			"Interface\\Addons\\SharedMedia\\statusbar\\Minimalist")
 	SML:Register("statusbar", "Otravi",				"Interface\\Addons\\SharedMedia\\statusbar\\Otravi")
