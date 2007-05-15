@@ -9,7 +9,7 @@
 ## X-Category: Miscellaneous
 
 ## X-WoWIPortal: elkano
-## X-Embeds: Ace2, SharedMedia-1.0
+## X-Embeds: Ace2, SharedMediaLib
 ## OptionalDeps: Ace2, SharedMediaLib
 
 libs\AceLibrary\AceLibrary.lua
