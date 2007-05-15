@@ -65,6 +65,7 @@ function SharedMedia:OnInitialize()
 	SML:Register("statusbar", "Smooth v2",			"Interface\\Addons\\SharedMedia\\statusbar\\Smoothv2")
 	SML:Register("statusbar", "Smudge",				"Interface\\Addons\\SharedMedia\\statusbar\\Smudge")
 	SML:Register("statusbar", "Steel",				"Interface\\Addons\\SharedMedia\\statusbar\\Steel")
+	SML:Register("statusbar", "Striped",			"Interface\\Addons\\SharedMedia\\statusbar\\Striped")
 	SML:Register("statusbar", "Water",				"Interface\\Addons\\SharedMedia\\statusbar\\Water")
 	SML:Register("statusbar", "Wisps",				"Interface\\Addons\\SharedMedia\\statusbar\\Wisps")
 
