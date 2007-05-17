@@ -1,0 +1,53 @@
+By doing this step, you may register your own textures, fonts, sounds, etc. with SharedMediaLib to choose from in-game.
+Without fear of your edits being overwritten when updating SharedMedia!  Remember to always back up your Addons folder when updating with the WAU, especially if using the Delete Before Extracting option.
+
+Instructions on how to use MyMedia:
+
+1. Create a new LUA file in the SharedMedia folder called MyMedia.lua (you can use Notepad or another text editor)
+
+2. Copy the code at the bottom of this page into that file
+
+3. Place your media files into the "MyMedia files" folder
+
+4. Enter in the information for your media in your NEW MyMedia.lua file, following these examples - leave the first entry ("background", "statusbar", etc) as they are - only change the second and third to match the names of your files.
+	Examples:
+		background-
+			SML:Register("background", "my background's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mybackground.tga")
+		border-
+			SML:Register("border", "my border's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myborder.tga")
+		font-
+			SML:Register("font", "my font's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
+		sound-
+			SML:Register("sound", "my sound's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mysound.mp3")
+		statusbar-
+			SML:Register("statusbar", "my statusbar texture's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mytexture.tga")
+
+If you have any issues, let me know on the wowace forums in the MyMedia thread. --Seerah
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Copy what's below into a file named MyMedia.lua and enter in your media's information in the NEW MyMedia.lua file, following the examples above.
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+local SML = AceLibrary("SharedMedia-1.0")
+MyMedia = AceLibrary("AceAddon-2.0"):new()
+
+function SharedMedia:OnInitialize()
+	local SML = AceLibrary:HasInstance("SharedMedia-1.0") and AceLibrary("SharedMedia-1.0") or nil
+	if SML then
+--Insert your media's information (under the section headers) between here...
+	--background:
+
+	--border:
+	
+	--font:
+	
+	--sound:
+	
+	--statusbar:
+
+-- ... and here
+	end
+end

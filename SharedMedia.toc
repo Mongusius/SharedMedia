@@ -19,3 +19,4 @@ libs\AceEvent-2.0\AceEvent-2.0.lua
 Libs\SharedMedia-1.0\SharedMedia-1.0.lua
 
 SharedMedia.lua
+MyMedia.lua
