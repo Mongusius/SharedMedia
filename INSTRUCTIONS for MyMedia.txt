@@ -34,7 +34,7 @@ Copy what's below into a file named MyMedia.lua and enter in your media's inform
 local SML = AceLibrary("SharedMedia-1.0")
 MyMedia = AceLibrary("AceAddon-2.0"):new()
 
-function SharedMedia:OnInitialize()
+function MyMedia:OnInitialize()
 	local SML = AceLibrary:HasInstance("SharedMedia-1.0") and AceLibrary("SharedMedia-1.0") or nil
 	if SML then
 --Insert your media's information (under the section headers) between here...
