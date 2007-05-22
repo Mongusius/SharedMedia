@@ -1,14 +1,11 @@
-## Interface: 20003
+## Interface: 20100
 
 ## Title: SharedMedia
 ## Notes: Inserts some media into SharedMediaLib's storage.
 ## Version: 1.0
-## Author: Elkano
-## X-Website: http://elkano.wowinterface.com/
-## X-Email: elkano@gmx.de
+## Author: Lots of people.
 ## X-Category: Miscellaneous
 
-## X-WoWIPortal: elkano
 ## X-Embeds: Ace2, SharedMediaLib
 ## OptionalDeps: Ace2, SharedMediaLib
 
