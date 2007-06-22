@@ -12,6 +12,7 @@ function SharedMedia:OnInitialize()
 -- -----
 -- BACKGROUND
 -- -----
+	SML:Register("background", "Moo", "Interface\\Addons\\SharedMedia\\background\\moo.tga")
 
 -- -----
 --  BORDER
