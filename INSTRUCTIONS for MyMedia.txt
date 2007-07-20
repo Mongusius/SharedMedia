@@ -1,34 +1,57 @@
-By doing this step, you may register your own textures, fonts, sounds, etc. with SharedMediaLib to choose from in-game.
-Without fear of your edits being overwritten when updating SharedMedia!  Remember to always back up your Addons folder when updating with the WAU, especially if using the Delete Before Extracting option.
+--[[
+INSTRUCTIONS for MyMedia - using SharedMedia with your own stuff
+================================================================
+By doing this step, you may register your own textures, fonts, sounds, etc.
+with SharedMediaLib to choose from in-game, without fear of your edits being
+overwritten when updating SharedMedia!
+
+** Remember to always back up your Addons folder when updating with the WAU,
+   especially if using the Delete Before Extracting option. **
+
 
 Instructions on how to use MyMedia:
+-----------------------------------
+1. Make a copy of this file called MyMedia.lua in the SharedMedia folder
 
-1. Create a new LUA file in the SharedMedia folder called MyMedia.lua (you can use Notepad or another text editor)
+2. Place your media files into the "MyMedia files" folder
 
-2. Copy the code at the bottom of this page into that file
+3. Use the examples below to add information about your newly added media.
+   You should only need to change anything between the lines marked "START"
+   and "END".
 
-3. Place your media files into the "MyMedia files" folder
-
-4. Enter in the information for your media in your NEW MyMedia.lua file, following these examples - leave the first entry ("background", "statusbar", etc) as they are - only change the second and third to match the names of your files.
-	Examples:
-		background-
-			SML:Register("background", "my background's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mybackground.tga")
-		border-
-			SML:Register("border", "my border's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myborder.tga")
-		font-
-			SML:Register("font", "my font's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
-		sound-
-			SML:Register("sound", "my sound's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mysound.mp3")
-		statusbar-
-			SML:Register("statusbar", "my statusbar texture's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mytexture.tga")
-
-If you have any issues, let me know on the wowace forums in the MyMedia thread. --Seerah
+4. Each item of media that you want to add should have its own line that
+   uses the relevant example as a template. To add details about more than
+   one item, just add another line to that section, changing the specific
+   details (eg, the font name and path).
 
 
+Examples:
+---------
+	background-
+		SML:Register("background", "my background's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mybackground.tga")
+	border-
+		SML:Register("border", "my border's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myborder.tga")
+	font-
+		SML:Register("font", "my font's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
+		SML:Register("anotherfont", "my friend's font", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
+	sound-
+		SML:Register("sound", "my sound's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mysound.mp3")
+	statusbar-
+		SML:Register("statusbar", "my statusbar texture's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mytexture.tga")
 
-------------------------------------------------------------------------------------------------------------------------------------------------
-Copy what's below into a file named MyMedia.lua and enter in your media's information in the NEW MyMedia.lua file, following the examples above.
-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Problems:
+---------
+If you have any issues, let me know on the wowace forums in the MyMedia
+thread. --Seerah
+]]
+
+
+
+----------------------------------------------------------------------------
+-- Copy this file to a file called MyMedia.lua, and enter your media's
+-- information below, using the examples above.
+----------------------------------------------------------------------------
 
 
 local SML = AceLibrary("SharedMedia-1.0")
@@ -37,17 +60,23 @@ MyMedia = AceLibrary("AceAddon-2.0"):new()
 function MyMedia:OnInitialize()
 	local SML = AceLibrary:HasInstance("SharedMedia-1.0") and AceLibrary("SharedMedia-1.0") or nil
 	if SML then
---Insert your media's information (under the section headers) between here...
+
+	-- START of the section that you should be updating
+	--
+	--    NB: any line beginning with "--" is ignored - so the lines
+	--    below are just comments!
+	--
+
 	--background:
 
 	--border:
-	
+
 	--font:
-	
+
 	--sound:
-	
+
 	--statusbar:
 
--- ... and here
+	-- END of the section that you should be updating
 	end
 end
