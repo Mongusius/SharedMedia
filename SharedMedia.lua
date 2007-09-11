@@ -17,6 +17,7 @@ function SharedMedia:OnInitialize()
 -- -----
 --  BORDER
 -- ----
+	SML:Register("border", "RothSquare", [[Interface\Addons\SharedMedia\border\roth.tga]])	
 
 -- -----
 --   FONT
