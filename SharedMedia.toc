@@ -6,8 +6,8 @@
 ## Author: Lots of people.
 ## X-Category: Miscellaneous
 
-## X-Embeds: LibSharedMedia-2.0
-## OptionalDeps: LibSharedMedia-2.0
+## X-Embeds: Ace2, SharedMediaLib
+## OptionalDeps: Ace2, SharedMediaLib
 
 embeds.xml
 
