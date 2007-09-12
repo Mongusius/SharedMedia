@@ -1,8 +1,8 @@
---[[
+--[=[
 INSTRUCTIONS for MyMedia - using SharedMedia with your own stuff
 ================================================================
 By doing this step, you may register your own textures, fonts, sounds, etc.
-with SharedMediaLib to choose from in-game, without fear of your edits being
+with LibSharedMedia-2.0 to choose from in-game, without fear of your edits being
 overwritten when updating SharedMedia!
 
 ** Remember to always back up your Addons folder when updating with the WAU,
@@ -28,23 +28,23 @@ Instructions on how to use MyMedia:
 Examples:
 ---------
 	background-
-		SML:Register("background", "my background's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mybackground.tga")
+		LSM:Register("background", "my background's name", [[Interface\Addons\SharedMedia\MyMedia files\mybackground.tga]])
 	border-
-		SML:Register("border", "my border's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myborder.tga")
+		LSM:Register("border", "my border's name", [[Interface\Addons\SharedMedia\MyMedia files\myborder.tga]])
 	font-
-		SML:Register("font", "my font's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
-		SML:Register("anotherfont", "my friend's font", "Interface\\Addons\\SharedMedia\\MyMedia files\\myfont.ttf")
+		LSM:Register("font", "my font's name", [[Interface\Addons\SharedMedia\MyMedia files\myfont.ttf]])
+		LSM:Register("anotherfont", "my friend's font", [[Interface\Addons\SharedMedia\MyMedia files\myfont.ttf]])
 	sound-
-		SML:Register("sound", "my sound's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mysound.mp3")
+		LSM:Register("sound", "my sound's name", [[Interface\Addons\SharedMedia\MyMedia files\mysound.mp3]])
 	statusbar-
-		SML:Register("statusbar", "my statusbar texture's name", "Interface\\Addons\\SharedMedia\\MyMedia files\\mytexture.tga")
+		LSM:Register("statusbar", "my statusbar texture's name", [[Interface\Addons\SharedMedia\MyMedia files\mytexture.tga]])
 
 
 Problems:
 ---------
 If you have any issues, let me know on the wowace forums in the MyMedia
 thread. --Seerah
-]]
+]=]
 
 
 
@@ -54,29 +54,22 @@ thread. --Seerah
 ----------------------------------------------------------------------------
 
 
-local SML = AceLibrary("SharedMedia-1.0")
-MyMedia = AceLibrary("AceAddon-2.0"):new()
+local LSM = LibStub("LibSharedMedia-2.0")
 
-function MyMedia:OnInitialize()
-	local SML = AceLibrary:HasInstance("SharedMedia-1.0") and AceLibrary("SharedMedia-1.0") or nil
-	if SML then
+-- START of the section that you should be updating
+--
+--    NB: any line beginning with "--" is ignored - so the lines
+--    below are just comments!
+--
 
-	-- START of the section that you should be updating
-	--
-	--    NB: any line beginning with "--" is ignored - so the lines
-	--    below are just comments!
-	--
+--background:
 
-	--background:
+--border:
 
-	--border:
+--font:
 
-	--font:
+--sound:
 
-	--sound:
+--statusbar:
 
-	--statusbar:
-
-	-- END of the section that you should be updating
-	end
-end
+-- END of the section that you should be updating
