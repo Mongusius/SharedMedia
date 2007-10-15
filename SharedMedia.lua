@@ -22,18 +22,19 @@ function SharedMedia:OnInitialize()
 -- -----
 --   FONT
 -- -----
-	SML:Register("font", "Adventure",				[[Interface\Addons\SharedMedia\fonts\Adventure.ttf]])
-	SML:Register("font", "Bazooka",					[[Interface\Addons\SharedMedia\fonts\Bazooka.ttf]])
-	SML:Register("font", "BigNoodleTilting",		[[Interface\Addons\SharedMedia\fonts\BigNoodleTilting.ttf]])
-	SML:Register("font", "BlackChancery",			[[Interface\Addons\SharedMedia\fonts\BlackChancery.ttf]])
-	SML:Register("font", "Diablo",					[[Interface\Addons\SharedMedia\fonts\Avqest.ttf]])
-	SML:Register("font", "Emblem",					[[Interface\Addons\SharedMedia\fonts\Emblem.ttf]])
-	SML:Register("font", "Enigma",					[[Interface\Addons\SharedMedia\fonts\Enigma__2.ttf]])
-	SML:Register("font", "Movie Poster",			[[Interface\Addons\SharedMedia\fonts\Movie_Poster-Bold.ttf]])
-	SML:Register("font", "Porky's",					[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
-	SML:Register("font", "Tangerine",				[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
-	SML:Register("font", "TwCenMT",					[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
-	SML:Register("font", "Yellowjacket",			[[Interface\Addons\SharedMedia\fonts\Yellowjacket.ttf]])
+	SML:Register("font", "Adventure",					[[Interface\Addons\SharedMedia\fonts\Adventure.ttf]])
+	SML:Register("font", "Bazooka",						[[Interface\Addons\SharedMedia\fonts\Bazooka.ttf]])
+	SML:Register("font", "BigNoodleTitling",			[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling.ttf]])
+	SML:Register("font", "BigNoodleTitling-Oblique",	[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling-Oblique.ttf]])
+	SML:Register("font", "BlackChancery",				[[Interface\Addons\SharedMedia\fonts\BlackChancery.ttf]])
+	SML:Register("font", "Diablo",						[[Interface\Addons\SharedMedia\fonts\Avqest.ttf]])
+	SML:Register("font", "Emblem",						[[Interface\Addons\SharedMedia\fonts\Emblem.ttf]])
+	SML:Register("font", "Enigma",						[[Interface\Addons\SharedMedia\fonts\Enigma__2.ttf]])
+	SML:Register("font", "Movie Poster",				[[Interface\Addons\SharedMedia\fonts\Movie_Poster-Bold.ttf]])
+	SML:Register("font", "Porky's",						[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
+	SML:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
+	SML:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
+	SML:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\Yellowjacket.ttf]])
 
 -- -----
 --   SOUND
