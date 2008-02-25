@@ -23,6 +23,7 @@ function SharedMedia:OnInitialize()
 --   FONT
 -- -----
 	SML:Register("font", "Adventure",					[[Interface\Addons\SharedMedia\fonts\Adventure.ttf]])
+	SML:Register("font", "ABF",							[[Interface\Addons\SharedMedia\fonts\ABF.ttf]])
 	SML:Register("font", "Bazooka",						[[Interface\Addons\SharedMedia\fonts\Bazooka.ttf]])
 	SML:Register("font", "BigNoodleTitling",			[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling.ttf]])
 	SML:Register("font", "BigNoodleTitling-Oblique",	[[Interface\Addons\SharedMedia\fonts\BigNoodleTitling-Oblique.ttf]])
@@ -34,6 +35,7 @@ function SharedMedia:OnInitialize()
 	SML:Register("font", "Porky's",						[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
 	SML:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
 	SML:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
+	SML:Register("font", "Vera Serif",					[[Interface\Addons\SharedMedia\fonts\VeraSe.ttf]])
 	SML:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\Yellowjacket.ttf]])
 
 -- -----
