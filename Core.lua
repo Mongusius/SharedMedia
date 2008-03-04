@@ -59,3 +59,4 @@ end
 
 SharedMedia.frame = CreateFrame("Frame")
 SharedMedia.frame:SetScript("OnEvent", SharedMedia.OnEvent)
+SharedMedia.frame:RegisterEvent("ADDON_LOADED")
