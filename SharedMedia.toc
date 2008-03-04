@@ -8,6 +8,8 @@
 
 ## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-3.0, SharedMediaLib, SurfaceLib
 
+Libs\LibStub.lua
+
 Core.lua
 SharedMedia.lua
 MyMedia.lua
