@@ -6,7 +6,7 @@ local Surface = LibStub("Surface-1.0", true)
 SharedMedia = {}
 SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
 
-SharedMedia.registry = { "statusbar" = {} }
+SharedMedia.registry = { ["statusbar"] = {} }
 
 function SharedMedia:Register(mediatype, key, data, langmask)
 	if LSM3 and LSM3:Register(mediatype, key, data, langmask) then
