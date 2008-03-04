@@ -1,4 +1,4 @@
-local LSM3 = LibStub("LibSharedMedia-3.0")
+local LSM3 = LibStub("LibSharedMedia-3.0", true)
 local LSM2 = LibStub("LibSharedMedia-2.0", true)
 local SML = LibStub("SharedMedia-1.0", true)
 local Surface = LibStub("Surface-1.0", true)
@@ -9,7 +9,23 @@ SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
 SharedMedia.registry = { ["statusbar"] = {} }
 
 function SharedMedia:Register(mediatype, key, data, langmask)
-	if LSM3 and LSM3:Register(mediatype, key, data, langmask) then
+	if LSM3 then 
+		if LSM3:Register(mediatype, key, data, langmask) then
+			if LSM2 then
+				LSM2:Register(mediatype, key, data)
+			end
+			if SML then
+				SML:Register(mediatype, key, data)
+			end
+			if Surface and mediatype == "statusbar" then
+				Surface:Register(key, data)
+			end
+			if not SharedMedia.registry[mediatype] then
+				SharedMedia.registry[mediatype] = {}
+			end
+			table.insert(SharedMedia.registry[mediatype], { key, data, langmask})
+		end
+	else	-- remove this when LSM3 goes trunk
 		if LSM2 then
 			LSM2:Register(mediatype, key, data)
 		end
