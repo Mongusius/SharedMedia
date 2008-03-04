@@ -28,7 +28,7 @@ end
 
 function SharedMedia.OnEvent(this, event, ...)
 	if not LSM3 then
-		LibStub("LibSharedMedia-3.0", true)
+		LSM3 = LibStub("LibSharedMedia-3.0", true)
 		if LSM3 then
 			for m,t in pairs(SharedMedia.registry) do
 				for _,v in ipairs(t) do

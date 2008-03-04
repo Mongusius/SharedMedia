@@ -28,16 +28,16 @@ Instructions on how to use MyMedia:
 Examples:
 ---------
 	background-
-		SharedMedia:Register("background", "my background's name", [[Interface\Addons\SharedMedia-2.0\MyMedia files\mybackground.tga]])
+		SharedMedia:Register("background", "my background's name", [[Interface\Addons\SharedMedia\MyMedia files\mybackground.tga]])
 	border-
-		SharedMedia:Register("border", "my border's name", [[Interface\Addons\SharedMedia-2.0\MyMedia files\myborder.tga]])
+		SharedMedia:Register("border", "my border's name", [[Interface\Addons\SharedMedia\MyMedia files\myborder.tga]])
 	font-
-		SharedMedia:Register("font", "my font's name", [[Interface\Addons\SharedMedia-2.0\MyMedia files\myfont.ttf]])
-		SharedMedia:Register("anotherfont", "my friend's font", [[Interface\Addons\SharedMedia-2.0\MyMedia files\myfont.ttf]])
+		SharedMedia:Register("font", "my font's name", [[Interface\Addons\SharedMedia\MyMedia files\myfont.ttf]])
+		SharedMedia:Register("anotherfont", "my friend's font", [[Interface\Addons\SharedMedia\MyMedia files\friendsfont.ttf]])
 	sound-
-		SharedMedia:Register("sound", "my sound's name", [[Interface\Addons\SharedMedia-2.0\MyMedia files\mysound.mp3]])
+		SharedMedia:Register("sound", "my sound's name", [[Interface\Addons\SharedMedia\MyMedia files\mysound.mp3]])
 	statusbar-
-		SharedMedia:Register("statusbar", "my statusbar texture's name", [[Interface\Addons\SharedMedia-2.0\MyMedia files\mytexture.tga]])
+		SharedMedia:Register("statusbar", "my statusbar texture's name", [[Interface\Addons\SharedMedia\MyMedia files\mytexture.tga]])
 
 
 Problems:

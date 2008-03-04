@@ -2,7 +2,8 @@
 -- registrations for media from the client itself belongs in LibSharedMedia-3.0
 
 if not SharedMedia then return end
-SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
+local revision = tonumber(string.sub("$Revision$", 12, -3))
+SharedMedia.revision = (revision > SharedMedia.revision) and revision or SharedMedia.revision
 
 -- -----
 -- BACKGROUND
