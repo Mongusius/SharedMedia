@@ -9,23 +9,7 @@ SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
 SharedMedia.registry = { ["statusbar"] = {} }
 
 function SharedMedia:Register(mediatype, key, data, langmask)
-	if LSM3 then 
-		if LSM3:Register(mediatype, key, data, langmask) then
-			if LSM2 then
-				LSM2:Register(mediatype, key, data)
-			end
-			if SML then
-				SML:Register(mediatype, key, data)
-			end
-			if Surface and mediatype == "statusbar" then
-				Surface:Register(key, data)
-			end
-			if not SharedMedia.registry[mediatype] then
-				SharedMedia.registry[mediatype] = {}
-			end
-			table.insert(SharedMedia.registry[mediatype], { key, data, langmask})
-		end
-	else	-- remove this when LSM3 goes trunk
+	if (LSM3 and LSM3:Register(mediatype, key, data, langmask)) or not LSM3 then
 		if LSM2 then
 			LSM2:Register(mediatype, key, data)
 		end
@@ -43,6 +27,16 @@ function SharedMedia:Register(mediatype, key, data, langmask)
 end
 
 function SharedMedia.OnEvent(this, event, ...)
+	if not LSM3 then
+		LibStub("LibSharedMedia-3.0", true)
+		if LSM3 then
+			for m,t in pairs(SharedMedia.registry) do
+				for _,v in ipairs(t) do
+					LSM3:Register(m, v[1], v[2], v[3])
+				end
+			end
+		end
+	end
 	if not LSM2 then
 		LSM2 = LibStub("LibSharedMedia-2.0", true)
 		if LSM2 then
