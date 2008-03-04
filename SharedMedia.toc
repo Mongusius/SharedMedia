@@ -6,7 +6,7 @@
 ## Author: Lots of people.
 ## X-Category: Miscellaneous
 
-## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-3.0, SharedMediaLib, SurfaceLib
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib, SurfaceLib
 
 Libs\LibStub.lua
 
