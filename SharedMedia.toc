@@ -1,15 +1,18 @@
 ## Interface: 20300
 
 ## Title: SharedMedia
-## Notes: Inserts some media into SharedMediaLib's storage.
-## Version: 1.0
+## Notes: Inserts some media into LibSharedMedia-3.0's storage.
+## Version: 3.0
 ## Author: Lots of people.
 ## X-Category: Miscellaneous
 
-## X-Embeds: Ace2, SharedMediaLib
-## OptionalDeps: Ace2, SharedMediaLib
+## X-Embeds: LibSharedMedia-3.0
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-3.0, SharedMediaLib, SurfaceLib
 
-embeds.xml
+Libs\LibSharedMedia-3.0\LibStub\LibStub.lua
+Libs\LibSharedMedia-3.0\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0\lib.xml
 
+Core.lua
 SharedMedia.lua
 MyMedia.lua
