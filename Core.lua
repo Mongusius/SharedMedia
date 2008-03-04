@@ -9,21 +9,22 @@ SharedMedia.revision = tonumber(string.sub("$Revision$", 12, -3)) or 1
 SharedMedia.registry = { ["statusbar"] = {} }
 
 function SharedMedia:Register(mediatype, key, data, langmask)
-	if (LSM3 and LSM3:Register(mediatype, key, data, langmask)) or not LSM3 then
-		if LSM2 then
-			LSM2:Register(mediatype, key, data)
-		end
-		if SML then
-			SML:Register(mediatype, key, data)
-		end
-		if Surface and mediatype == "statusbar" then
-			Surface:Register(key, data)
-		end
-		if not SharedMedia.registry[mediatype] then
-			SharedMedia.registry[mediatype] = {}
-		end
-		table.insert(SharedMedia.registry[mediatype], { key, data, langmask})
+	if LSM3 then
+		LSM3:Register(mediatype, key, data, langmask)
 	end
+	if LSM2 then
+		LSM2:Register(mediatype, key, data)
+	end
+	if SML then
+		SML:Register(mediatype, key, data)
+	end
+	if Surface and mediatype == "statusbar" then
+		Surface:Register(key, data)
+	end
+	if not SharedMedia.registry[mediatype] then
+		SharedMedia.registry[mediatype] = {}
+	end
+	table.insert(SharedMedia.registry[mediatype], { key, data, langmask})
 end
 
 function SharedMedia.OnEvent(this, event, ...)
