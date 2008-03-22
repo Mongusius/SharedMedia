@@ -33,7 +33,7 @@ Examples:
 		SharedMedia:Register("border", "my border's name", [[Interface\Addons\SharedMedia\MyMedia files\myborder.tga]])
 	font-
 		SharedMedia:Register("font", "my font's name", [[Interface\Addons\SharedMedia\MyMedia files\myfont.ttf]])
-		SharedMedia:Register("anotherfont", "my friend's font", [[Interface\Addons\SharedMedia\MyMedia files\friendsfont.ttf]])
+		SharedMedia:Register("font", "my friend's font", [[Interface\Addons\SharedMedia\MyMedia files\friendsfont.ttf]])
 	sound-
 		SharedMedia:Register("sound", "my sound's name", [[Interface\Addons\SharedMedia\MyMedia files\mysound.mp3]])
 	statusbar-
