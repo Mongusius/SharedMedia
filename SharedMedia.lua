@@ -33,6 +33,7 @@ SharedMedia:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fon
 SharedMedia:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
 SharedMedia:Register("font", "Vera Serif",					[[Interface\Addons\SharedMedia\fonts\VeraSe.ttf]])
 SharedMedia:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\Yellowjacket.ttf]])
+SharedMedia:Register("font", "PerspectiveSans",				[[Interface\Addons\SharedMedia\fonts\PerspectiveSans.ttf]])
 
 -- -----
 --   SOUND
