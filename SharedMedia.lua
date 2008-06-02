@@ -31,6 +31,7 @@ SharedMedia:Register("font", "Movie Poster",				[[Interface\Addons\SharedMedia\f
 SharedMedia:Register("font", "Porky's",						[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
 SharedMedia:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
 SharedMedia:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
+SharedMedia:Register("font", "Ultima Campagnoli",			[[Interface\Addons\SharedMedia\fonts\Ultima_Campagnoli.ttf]])
 SharedMedia:Register("font", "Vera Serif",					[[Interface\Addons\SharedMedia\fonts\VeraSe.ttf]])
 SharedMedia:Register("font", "Yellowjacket",				[[Interface\Addons\SharedMedia\fonts\Yellowjacket.ttf]])
 -- -----
