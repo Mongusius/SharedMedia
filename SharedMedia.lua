@@ -29,6 +29,7 @@ SharedMedia:Register("font", "Emblem",						[[Interface\Addons\SharedMedia\fonts
 SharedMedia:Register("font", "Enigma",						[[Interface\Addons\SharedMedia\fonts\Enigma__2.ttf]])
 SharedMedia:Register("font", "Movie Poster",				[[Interface\Addons\SharedMedia\fonts\Movie_Poster-Bold.ttf]])
 SharedMedia:Register("font", "Porky's",						[[Interface\Addons\SharedMedia\fonts\Porky.ttf]])
+SharedMedia:Register("font", "RM Midserif",					[[Interface\Addons\SharedMedia\fonts\rm_midse.ttf]])
 SharedMedia:Register("font", "Tangerine",					[[Interface\Addons\SharedMedia\fonts\Tangerin.ttf]])
 SharedMedia:Register("font", "TwCenMT",						[[Interface\Addons\SharedMedia\fonts\Tw_Cen_MT_Bold.ttf]])
 SharedMedia:Register("font", "Ultima Campagnoli",			[[Interface\Addons\SharedMedia\fonts\Ultima_Campagnoli.ttf]])
