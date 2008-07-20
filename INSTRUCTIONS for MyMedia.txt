@@ -1,4 +1,4 @@
---[[
+--[=[
 INSTRUCTIONS for MyMedia - using SharedMedia with your own stuff
 ================================================================
 By doing this step, you may register your own textures, fonts, sounds, etc.
@@ -44,7 +44,7 @@ Problems:
 ---------
 If you have any issues, let us know on the wowace forums in the MyMedia
 thread. --Seerah
-]]
+]=]
 
 
 
