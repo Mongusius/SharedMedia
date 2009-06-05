@@ -1,14 +1,19 @@
 ## Interface: 30100
 ## Title: SharedMedia
 ## Notes: Inserts some media into LibSharedMedia's storage.
-## Version: 3.0
-## Author: Lots of people.
+## Version: 3.0.1-@project-revision@
+## Author: Elkano
 ## X-Category: Miscellaneous
 
-## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib, SurfaceLib
+## X-Revision: @project-revision@
+## X-Date: @project-date-iso@
 
-Libs\LibStub.lua
+## OptionalDeps: LibStub, LibSharedMedia-3.0
 
-Core.lua
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\LibSharedMedia-3.0\lib.xml
+#@end-no-lib-strip@
+
 SharedMedia.lua
-MyMedia.lua
+..\SharedMedia_MyMedia\MyMedia.lua
