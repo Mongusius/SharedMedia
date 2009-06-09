@@ -12,6 +12,7 @@
 
 #@no-lib-strip@
 libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 libs\LibSharedMedia-3.0\lib.xml
 #@end-no-lib-strip@
 
