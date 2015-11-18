@@ -1,7 +1,6 @@
 The font included in this zip file:
 
-   Enigma__2.ttf (Enigmatic)
-   Enigma_2i.ttf (Enigmatic Italic)
+   ENIGU_2.ttf (Enigmatic 2 Unicode)
 
 is freeware, and can be used for any sort of work, from websites to term 
 papers to ad campaigns. If you use it in anything I'm likely to see and 
@@ -11,11 +10,12 @@ This zip file can also be distributed freely, so long as no files are
 removed from it, and so long as the files are not altered.
 
 Otherwise, you can modify the font however you like, but you must 
-completely rename the new font, and the resulting font must be 
-freeware, as stated in Part 4 of the DSL below.
+completely rename the new font, as stated in Part 4 of the DSL below. 
+You can distribute your creation, but you also have to link back to my 
+freeware font, as stated in Part 3 below.
 
-My name is Darren Rigby, and I created Enigmatic and Enigmatic Italic. 
-I've copylefted them. You can contact me at dart@puzzlers.org.
+My name is Darren Rigby, and I created Enigmatic Unicode. I've copylefted 
+it. You can contact me at dart@puzzlers.org.
 
 
 FULL LICENCE
